@@ -53,9 +53,9 @@ async def process_single_pdf(pdf_path: Path, outputs_dir: Path) -> Dict[str, Any
 
     # Step 2: Extract design rules
     try:
-        # Initialize rule extractor with organization name
+        # Initialize rule extractor with correct organization name for SCHEMATIC_chunks table
         rule_extractor = StandalonePDFRuleExtractor(
-            organization_name="better_rules"
+            organization_name="SCHEMATIC"
         )
 
         # Convert pin table to string format for rule extraction
