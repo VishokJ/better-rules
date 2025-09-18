@@ -1,0 +1,15 @@
+langchain-core
+langchain-openai
+langchain-anthropic
+langchain-google-genai
+pydantic
+pymongo
+openai
+tqdm
+boto3
+python-dotenv
+PyMuPDF
+pillow
+pdfplumber
+google-generativeai
+tiktoken
